@@ -1,0 +1,36 @@
+
+/*import fonts*/
+
+@import url(./fonts.css)
+
+/* start navigation */
+/* css variable*/
+
+@import url(./partials/_variables.css)
+.header_area .main-menu .navbar .navbar-brand{
+	padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+	padding: 1rem 19rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+	font: normal 500 15px/2px var(--roboto);
+	font-family: var(--roboto);
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 1.7rem;
+	color: var(--title-color);
+}
+
+
+.header_area .main-menu .navbar-nav .active a{
+	color:darkorange ;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+	color:darkorange ;
+}
+/*banner area*/
+/* end navigation */
